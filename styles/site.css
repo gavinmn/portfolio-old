@@ -1,0 +1,509 @@
+/* RESETS ================================= */
+
+body {
+	background-color: #FAFAFA;
+	font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+html, body {
+	width: 100%;
+	height: 100%
+	
+}
+
+html {
+	font-size: 16px;
+	-webkit-overflow-scrolling: touch;
+	scroll-behavior: smooth;
+}
+
+* {
+	margin:0;
+	padding:0;
+}
+
+img {
+	max-width: 100%;
+	height:auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clearfix{
+	clear:both;
+}
+
+/* TEXT STYLES ============================== */
+
+.light-grey-text {
+	color: #5C6371;
+}
+
+.dark-grey-text {
+	color: #333333;
+}
+
+.blue-text {
+	color: #49A2FF;
+}
+
+.bold-text {
+	font-weight: 600;
+}
+
+.right-text {
+	float: right;
+}
+
+/* MISC STYLES ================================== */
+
+.container {
+	max-width: 816px;
+	margin: 0 auto;
+	padding: 0 10% 0 10%;
+	overflow: hidden;
+}
+
+.transition {
+	display: none;
+}
+
+.divider-line {
+	background: #C2CFDB;
+	border-radius: 0.5px;
+	height:1px;
+	max-width: 1648px;
+}
+
+.selected-link {
+	color: #49A2FF;
+	padding: 4px 6px;
+}
+
+.selected-link:hover {
+	cursor: pointer;
+	color: #49A2FF;
+	background: rgba(73,162,255,0.14);
+	border-radius: 4px;	
+	padding: 4px 6px;
+}
+
+.unselected-link {
+	padding: 4px 6px;
+}
+
+
+.unselected-link:hover {
+	cursor: pointer;
+	background: rgba(73,162,255,0.14);
+	border-radius: 4px;
+	color: #49A2FF;	
+}
+
+/* ABOUT PAGE =================================================================== */
+
+	/* HEADER ================================= */
+	.header-container {
+		padding-top: 2rem;
+	}
+
+	.flex-container-nav-links {
+		padding-top: 1rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+	
+	.nav-link {
+		font-size: .75rem;
+		font-weight: 500;
+		margin-left: 1.25rem;
+	}
+	
+	.name-container {
+		padding-top: 2rem;
+	}
+	
+	#name {
+		font-size: 1.375rem;
+		line-height: 1.625rem;
+	}
+	
+	.title-container {
+		padding-top: 2rem;
+	}
+	
+	#job-title {
+		font-size: 2.25rem;
+		line-height: 2.5rem;
+	}
+	
+	#ampersand {
+		font-size: 1.125rem;
+		margin-left: 1.5rem;
+	}
+	
+	/* BIO ================================= */
+	
+	.bio-container {
+		padding-top: 4rem;
+	}
+	
+	.description-text {
+		font-size: .875rem;
+		line-height: 1.5rem;
+		max-width: 610px;
+	}
+	
+	.flex-container-contact-links {
+		padding-top: 4rem;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	
+	.personal-link {
+		font-size: .65rem;
+	}
+	
+	.personal-link:hover {
+		cursor: pointer;
+		color: #49A2FF;
+	}
+	
+	/* FOOTER ==================  */
+	
+	.footer-container {
+		padding-bottom: 2rem;
+	}
+	
+	.footer-text {
+		margin-top:2rem;
+		margin-bottom: .5rem;
+		font-size: .5rem;
+		color: #A5ABB6;
+	}
+	
+	.copyright-text {
+		font-size: .4rem;
+		color: #A5ABB6;
+	}
+	
+/* END ABOUT PAGE ================================================================ */
+
+/* WORK PAGE =============================================================== */
+
+	/* MISC STYLES ================================= */
+	
+	.background-gradient {
+		background-color; #FAFCFF;
+	}
+	
+	.portfolio-section-header {
+		font-size: 1.5rem;
+		display: inline-block;
+	}
+	
+	/* HEADER ========================= */
+	
+	.case-studies-container {
+		padding-top: 4rem;
+	}
+	
+	/* UI ICONS ========================== */
+	
+	.ui-icons-container {
+		padding-top: 2rem;
+	}
+	
+	.grid-container-ui-icons {
+		padding-top: .5rem;
+		display: grid;
+		grid-template-columns: auto;
+		grid-gap: 16px;
+	}
+	
+	.grid-container-ui-icons-extra {
+		padding-bottom: .5rem;
+		display: none;
+		grid-template-columns: auto;
+		grid-gap: 16px;
+	}
+	
+	.more-dropdown-ui {
+		display: inline-block;
+		cursor: pointer;
+		background: rgba(92,99,113,0.14);
+		border-radius: 4px;	
+		padding: 4px 6px;
+		margin-top: .5rem;
+		font-size: .75rem;
+		font-weight: 500;
+	}
+	
+	.more-dropdown-ui:hover {
+		cursor: pointer;
+		background: rgba(73,162,255,0.14);
+		border-radius: 4px;
+		color: #49A2FF;
+	}
+	
+	/* ILLUSTRATION DESIGN =============================== */
+	
+	.illustration-design-container {
+		padding-top: 2rem;
+	}
+	
+	.grid-container-illustration-design {
+		padding-top: .5rem;
+		display: grid;
+		grid-template-columns: auto;
+		grid-gap: 16px;
+		align-items: start;
+	}
+	
+	.grid-container-illustration-design-extra {
+		padding-bottom: .5rem;
+		display: none;
+		grid-template-columns: auto;
+		grid-gap: 16px;
+	}
+	
+	.illustration-design-item {
+		box-shadow: 0 1px 2px 0 rgba(147,164,180,0.20);
+	}
+	
+	.more-dropdown-illustration {
+		display: inline-block;
+		cursor: pointer;
+		background: rgba(92,99,113,0.14);
+		border-radius: 4px;	
+		padding: 4px 6px;
+		margin-top: .5rem;
+		font-size: .75rem;
+		font-weight: 500;
+	}
+	
+	.more-dropdown-illustration:hover {
+		cursor: pointer;
+		background: rgba(73,162,255,0.14);
+		border-radius: 4px;
+		color: #49A2FF;
+	}
+
+/* END WORK PAGE =============================================================== */
+
+
+/* UX Page ========================================================= */
+
+	
+	.ux-grid-container {
+		margin-top: 1rem;
+		display: grid;
+	}
+	
+	.ux-header {
+		margin-bottom: .5rem;
+		font-size:1rem;
+	}
+	
+	.chalk-project {
+		transition: .2s ease-in-out;
+	}
+	
+	.chalk-project:hover {
+		opacity: .6;
+		cursor: pointer;
+	}
+	
+	#chalksmall {
+		width: 100%
+		margin-top: 1rem;
+		border-radius: 4px;
+		margin-bottom: 2rem;
+	}
+	
+	#chalklarge {
+		display:none;
+	}
+	
+	#slapdashsmall {
+		width: 100%
+		margin-top: 1rem;
+		border-radius: 4px;
+		margin-bottom: 2rem;
+	}
+	
+	#slapdashlarge {
+		display:none;
+	}
+	
+	.slapdash-project {
+		transition: .2s ease-in-out;
+	}
+	
+	.slapdash-project:hover {
+		opacity: .6;
+		cursor: pointer;
+	}
+
+
+
+/* End UX Page ==================================================*/
+
+
+/* Case Study Page ========================================== */
+
+	.body-text {
+		font-size: 16px;
+		line-height: 24px;
+		max-width: 560px;
+	}
+	
+	.case-study-container {
+		margin-top: 2rem;
+	}
+
+	.case-study-text-flex {
+		display: flex;
+		justify-content: center;
+	}
+	
+	.case-study-body-container-center{
+		text-align: left;
+		max-width: 560px;
+	}
+
+	.case-study-image {
+		width: 100%;
+		margin-top: .5rem;
+		border-radius: 4px;
+	}
+
+	.caption {
+		font-size: .75rem;
+		color: #949CAD;
+		text-align: center;
+	}
+	
+	.case-study-h1 {
+		font-size: 1.2rem;
+		margin-bottom: .5em;
+	}
+
+	.case-study-h2 {	
+		text-align: left;
+		font-size: 1rem;
+		margin-top: 1rem;
+	}
+	
+	.case-study-body {
+		text-align: left;
+		display: inline-block;
+		margin-top: .5rem;
+		margin-bottom: .5rem;
+	}
+
+
+/* End Case Study Page ==================================== */
+
+
+/* MEDIA QUERIES =================================== */
+
+	/* GRID CHANGES========================= */
+	
+		@media only screen and (min-width:501px) {
+
+			.flex-container-contact-links {
+				justify-content: start;
+			}
+			
+			.personal-link {
+				margin-right: 2rem;
+			}
+			
+			.grid-container-ui-icons, .grid-container-ui-icons-extra, .grid-container-illustration-design, .grid-container-illustration-design-extra {
+				grid-template-columns: auto auto;
+				max-width: 816px;
+			}
+			
+			#chalksmall {
+				display: none;
+			}
+		
+			#chalklarge {
+				display: inline-block;
+				width: 100%;
+				margin-top: 1rem;
+				border-radius: 4px;
+				margin-bottom: 2rem;
+			}
+			
+			#slapdashsmall {
+				display: none;
+			}
+		
+			#slapdashlarge {
+				display: inline-block;
+				width: 100%;
+				margin-top: 1rem;
+				border-radius: 4px;
+				margin-bottom: 2rem;
+			}
+			
+		}
+
+	/* 	TOP SECTION ===================== */
+	
+	@media only screen and (min-width: 722px) {
+		html {
+			font-size: 24px;
+		}
+		
+		.nav-link {
+			font-size: .65rem;
+		}
+		
+		#name {
+			font-size: 1.75rem;
+			line-height: 2rem;
+		}
+		
+		#job-title {
+			font-size: 3rem;
+			line-height: 2.5rem;
+		}	
+		
+		#ampersand {
+			margin-left: 2.2rem;
+		}
+		
+		#body-text {
+			max-width: 610px;
+		}
+		
+		.more-dropdown-container-illustration {
+			padding: 0;
+		}
+		
+		.more-dropdown-container-ui {
+			padding: 0;
+		}
+		
+		.dropdown-arrow {
+			width: 16px;
+			padding-left: .25rem;
+			padding-bottom: 2px;
+		}
+		
+		.more-dropdown {
+			font-size: .75rem;
+			display: inline-block;
+		}
+		
+			
+	}
