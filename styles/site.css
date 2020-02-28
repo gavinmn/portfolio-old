@@ -197,6 +197,10 @@ a {
 
 	/* MISC STYLES ================================= */
 	
+	.illustration-space {
+		margin-top: 2rem;
+	}
+
 	.background-gradient {
 		background-color; #FAFCFF;
 	}
