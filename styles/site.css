@@ -349,6 +349,25 @@ a {
 		cursor: pointer;
 	}
 
+	.joro-project {
+		transition: .2s ease-in-out;
+	}
+	
+	.joro-project:hover {
+		opacity: .6;
+		cursor: pointer;
+	}
+	#jorosmall {
+		width: 100%
+		margin-top: 1rem;
+		border-radius: 4px;
+		margin-bottom: 2rem;
+	}
+	
+	#jorolarge {
+		display:none;
+	}
+
 
 
 /* End UX Page ==================================================*/
@@ -437,7 +456,6 @@ a {
 			#chalklarge {
 				display: inline-block;
 				width: 100%;
-				margin-top: 1rem;
 				border-radius: 4px;
 				margin-bottom: 2rem;
 			}
@@ -449,7 +467,17 @@ a {
 			#slapdashlarge {
 				display: inline-block;
 				width: 100%;
-				margin-top: 1rem;
+				border-radius: 4px;
+				margin-bottom: 2rem;
+			}
+
+			#jorosmall {
+				display: none;
+			}
+		
+			#jorolarge {
+				display: inline-block;
+				width: 100%;
 				border-radius: 4px;
 				margin-bottom: 2rem;
 			}
