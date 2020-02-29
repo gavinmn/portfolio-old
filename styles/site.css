@@ -57,6 +57,21 @@ a {
 	float: right;
 }
 
+.dribbble-link {
+	color:#ea4c89;
+}
+
+.dribbble-link:hover {
+	color:#49A2FF;
+}
+
+.shot-caption {
+	font-size: .75rem;
+	color: #949CAD;
+	text-align: left;
+	margin-top: .5rem;
+}
+
 /* MISC STYLES ================================== */
 
 .container {
