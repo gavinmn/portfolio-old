@@ -85,13 +85,6 @@ a {
 	display: none;
 }
 
-.divider-line {
-	background: #C2CFDB;
-	border-radius: 0.5px;
-	height:1px;
-	max-width: 1648px;
-}
-
 .selected-link {
 	color: #49A2FF;
 	padding: 4px 6px;
@@ -208,16 +201,12 @@ a {
 	
 /* END ABOUT PAGE ================================================================ */
 
-/* WORK PAGE =============================================================== */
+/* WORK STUFF =============================================================== */
 
 	/* MISC STYLES ================================= */
 	
 	.illustration-space {
 		margin-top: 2rem;
-	}
-
-	.background-gradient {
-		background-color; #FAFCFF;
 	}
 	
 	.portfolio-section-header {
@@ -225,48 +214,10 @@ a {
 		display: inline-block;
 	}
 	
-	/* HEADER ========================= */
-	
-	.case-studies-container {
-		padding-top: 4rem;
-	}
-	
-	/* UI ICONS ========================== */
-	
-	.ui-icons-container {
-		padding-top: 2rem;
-	}
-	
 	.grid-container-ui-icons {
-		padding-top: .5rem;
 		display: grid;
 		grid-template-columns: auto;
 		grid-gap: 16px;
-	}
-	
-	.grid-container-ui-icons-extra {
-		padding-bottom: .5rem;
-		display: none;
-		grid-template-columns: auto;
-		grid-gap: 16px;
-	}
-	
-	.more-dropdown-ui {
-		display: inline-block;
-		cursor: pointer;
-		background: rgba(92,99,113,0.14);
-		border-radius: 4px;	
-		padding: 4px 6px;
-		margin-top: .5rem;
-		font-size: .75rem;
-		font-weight: 500;
-	}
-	
-	.more-dropdown-ui:hover {
-		cursor: pointer;
-		background: rgba(73,162,255,0.14);
-		border-radius: 4px;
-		color: #49A2FF;
 	}
 	
 	/* ILLUSTRATION DESIGN =============================== */
@@ -276,46 +227,20 @@ a {
 	}
 	
 	.grid-container-illustration-design {
-		padding-top: .5rem;
 		display: grid;
 		grid-template-columns: auto;
 		grid-gap: 16px;
 		align-items: start;
 	}
 	
-	.grid-container-illustration-design-extra {
-		padding-bottom: .5rem;
-		display: none;
-		grid-template-columns: auto;
-		grid-gap: 16px;
-	}
-	
 	.illustration-design-item {
 		box-shadow: 0 1px 2px 0 rgba(147,164,180,0.20);
 	}
-	
-	.more-dropdown-illustration {
-		display: inline-block;
-		cursor: pointer;
-		background: rgba(92,99,113,0.14);
-		border-radius: 4px;	
-		padding: 4px 6px;
-		margin-top: .5rem;
-		font-size: .75rem;
-		font-weight: 500;
-	}
-	
-	.more-dropdown-illustration:hover {
-		cursor: pointer;
-		background: rgba(73,162,255,0.14);
-		border-radius: 4px;
-		color: #49A2FF;
-	}
 
-/* END WORK PAGE =============================================================== */
+/* END WORK STUFF =============================================================== */
 
 
-/* UX Page ========================================================= */
+/* UX ========================================================= */
 
 	
 	.ux-grid-container {
@@ -389,7 +314,7 @@ a {
 
 
 
-/* End UX Page ==================================================*/
+/* End UX  ==================================================*/
 
 
 /* Case Study Page ========================================== */
