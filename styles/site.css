@@ -72,6 +72,10 @@ a {
 	margin-top: .5rem;
 }
 
+.line-break {
+
+}
+
 /* MISC STYLES ================================== */
 
 .container {
@@ -359,14 +363,14 @@ a {
 
 	.case-study-h2 {	
 		text-align: left;
-		font-size: 1rem;
+		font-size: 1.2rem;
 		margin-top: 1rem;
+		margin-bottom:.5rem;
 	}
 	
 	.case-study-body {
 		text-align: left;
 		display: inline-block;
-		margin-top: .5rem;
 		margin-bottom: .5rem;
 	}
 
@@ -474,6 +478,10 @@ a {
 		.more-dropdown {
 			font-size: .75rem;
 			display: inline-block;
+		}
+
+		.case-study-h2 {	
+			font-size: .9rem;
 		}
 		
 			
