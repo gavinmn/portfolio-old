@@ -143,8 +143,8 @@ a {
 	}
 	
 	#name {
-		font-size: 1.375rem;
-		line-height: 1.625rem;
+		font-size: 1.75rem;
+		line-height: 1.75rem;
 	}
 	
 	.title-container {
@@ -152,12 +152,12 @@ a {
 	}
 	
 	#job-title {
-		font-size: 2.25rem;
+		font-size: 2rem;
 		line-height: 2.5rem;
 	}
 	
 	#ampersand {
-		font-size: 1.125rem;
+		font-size: 2rem;
 		margin-left: 1.5rem;
 	}
 	
@@ -503,7 +503,7 @@ a {
 		}	
 		
 		#ampersand {
-			margin-left: 2.2rem;
+			margin-left: 2.5rem;
 		}
 		
 		#body-text {
