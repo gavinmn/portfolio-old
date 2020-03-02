@@ -163,11 +163,11 @@ a {
 	/* BIO ================================= */
 	
 	.bio-container {
-		padding-top: 4rem;
+		padding-top: 2rem;
 	}
 	
 	.description-text {
-		font-size: .875rem;
+		font-size: 1rem;
 		line-height: 1.5rem;
 		max-width: 610px;
 	}
@@ -272,7 +272,7 @@ a {
 	
 	.ux-header {
 		margin-bottom: .5rem;
-		font-size:1rem;
+		font-size:1.25rem;
 	}
 	
 	.chalk-project {
@@ -508,6 +508,10 @@ a {
 		
 		#body-text {
 			max-width: 610px;
+		}
+
+		.description-text {
+			font-size: .875rem;
 		}
 		
 		.more-dropdown-container-illustration {
