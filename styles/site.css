@@ -144,7 +144,7 @@ a {
 	
 	#name {
 		font-size: 1.75rem;
-		line-height: 1.75rem;
+		line-height: 1.925rem;
 	}
 	
 	.title-container {
@@ -493,12 +493,12 @@ a {
 		
 		#name {
 			font-size: 1.75rem;
-			line-height: 2rem;
+			line-height: 1.925rem;
 		}
 		
 		#job-title {
 			font-size: 2.5rem;
-			line-height: 2.75rem;
+			line-height: 3rem;
 		}	
 		
 		#ampersand {
