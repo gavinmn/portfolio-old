@@ -152,13 +152,12 @@ a {
 	}
 	
 	#job-title {
-		font-size: 2rem;
-		line-height: 2.5rem;
+		font-size: 2.5rem;
+		line-height: 3.125rem;
 	}
 	
 	#ampersand {
 		font-size: 2rem;
-		margin-left: 1.5rem;
 	}
 	
 	/* BIO ================================= */
@@ -499,11 +498,12 @@ a {
 		
 		#job-title {
 			font-size: 2.5rem;
-			line-height: 2.5rem;
+			line-height: 3.125rem;
 		}	
 		
 		#ampersand {
-			margin-left: 2rem;
+			font-size:2.5rem;
+			/*margin-left: 2rem;*/
 		}
 		
 		#body-text {
