@@ -294,6 +294,27 @@ a {
 	#chalklarge {
 		display:none;
 	}
+
+	.experts-project {
+		transition: .2s ease-in-out;
+	}
+	
+	.experts-project:hover {
+		opacity: .6;
+		cursor: pointer;
+	}
+	
+	#expertssmall {
+		width: 100%
+		margin-top: 1rem;
+		border-radius: 4px;
+		margin-bottom: 2rem;
+	}
+	
+	#expertslarge {
+		display:none;
+	}
+
 	
 	#slapdashsmall {
 		width: 100%
@@ -439,6 +460,17 @@ a {
 			}
 		
 			#chalklarge {
+				display: inline-block;
+				width: 100%;
+				border-radius: 4px;
+				margin-bottom: 2rem;
+			}
+
+			#expertssmall {
+				display: none;
+			}
+		
+			#expertslarge {
 				display: inline-block;
 				width: 100%;
 				border-radius: 4px;
