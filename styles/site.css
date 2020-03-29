@@ -436,6 +436,21 @@ a {
 		text-decoration: underline;
 	}
 
+	#chalkflow-container {
+		width: 100%;
+		margin-top: .5rem;
+		border-radius: 4px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #F2F5F8;
+		padding: 16px 0;	
+	}
+
+	#chalkflow {
+		width: 281px;
+	}
+
 
 
 /* End Case Study Page ==================================== */
