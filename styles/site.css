@@ -451,6 +451,22 @@ a {
 		width: 281px;
 	}
 
+	.chalkprototype-container {
+		margin-top: .5rem;
+		border-radius: 4px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap:wrap;
+		background-color: #F2F5F8;
+		margin-bottom: .5rem;
+	}
+
+	.chalkgif {
+		width: 160px;
+		padding: 16px
+	}
+
 
 
 /* End Case Study Page ==================================== */
