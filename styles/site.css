@@ -469,6 +469,28 @@ a {
 		padding: 4px 16px;
 	}
 
+	.expertprototype-container {
+		margin-top: .5rem;
+		margin-bottom: .5rem;
+		border-radius: 4px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap:wrap;
+		background-color: #F2F5F8;
+		padding: 8px 8px;
+		
+	}
+
+	.expertgifmobile {
+		width: 160px;
+		padding: 4px 16px;
+	}
+	.expertgifdesktop {
+		width: 500px;
+		padding: 4px 16px;
+	}
+
 
 
 /* End Case Study Page ==================================== */
