@@ -127,7 +127,7 @@ a {
 	}
 	
 	.nav-link {
-		font-size: .85rem;
+		font-size: .75rem;
 		font-weight: 500;
 		margin-left: 1.25rem;
 	}
@@ -584,7 +584,7 @@ a {
 		}
 		
 		.nav-link {
-			font-size: .85rem;
+			font-size: .75rem;
 		}
 
 		#logo {
