@@ -1,5 +1,5 @@
 body {
-	background-color: #FAFAFA;
+	background-color: #ffffff;
 	font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif;
 	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
@@ -42,7 +42,7 @@ a {
 }
 
 .dark-grey-text {
-	color: #333333;
+	color: #1d1d1f;
 }
 
 .blue-text {
@@ -95,26 +95,20 @@ a {
 
 .selected-link {
 	color: #49A2FF;
-	padding: 4px 6px;
 }
 
 .selected-link:hover {
 	cursor: pointer;
 	color: #49A2FF;
-	background: rgba(73,162,255,0.14);
-	border-radius: 4px;	
-	padding: 4px 6px;
 }
 
 .unselected-link {
-	padding: 4px 6px;
+	/*padding: 4px 6px;*/
 }
 
 
 .unselected-link:hover {
 	cursor: pointer;
-	background: rgba(73,162,255,0.14);
-	border-radius: 4px;
 	color: #49A2FF;	
 }
 
@@ -133,31 +127,41 @@ a {
 	}
 	
 	.nav-link {
-		font-size: .75rem;
+		font-size: .85rem;
 		font-weight: 500;
 		margin-left: 1.25rem;
 	}
 	
 	.name-container {
-		padding-top: 2rem;
+		padding-top: 4rem;
+	}
+
+	#logo {
+		width: 64px;
 	}
 	
 	#name {
-		font-size: 1.75rem;
-		line-height: 1.925rem;
+		font-size: .85rem;
+		font-weight: 500;
+		margin-right:auto;
+	}
+
+	#name:hover {
+		cursor: pointer;
+		color: #49A2FF;
 	}
 	
 	.title-container {
-		padding-top: 2rem;
+		padding-top: .8rem;
 	}
 	
 	#job-title {
-		font-size: 2.5rem;
-		line-height: 2.75rem;
+		font-size: 2rem;
+		line-height: 2.5rem;
 	}
 	
 	#ampersand {
-		font-size: 2.5rem;
+		font-size: 2rem;
 	}
 	
 	/* BIO ================================= */
@@ -169,11 +173,11 @@ a {
 	.description-text {
 		font-size: 1rem;
 		line-height: 1.5rem;
-		max-width: 610px;
+		max-width: 580px;
 	}
 	
 	.flex-container-contact-links {
-		padding-top: 4rem;
+		padding-top: 2rem;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -576,26 +580,28 @@ a {
 	
 	@media only screen and (min-width: 722px) {
 		html {
-			font-size: 24px;
+			font-size: 20px;
 		}
 		
 		.nav-link {
-			font-size: .65rem;
+			font-size: .85rem;
+		}
+
+		#logo {
+			width: 80px;
 		}
 		
 		#name {
-			font-size: 1.75rem;
-			line-height: 1.925rem;
+			font-size: .85rem;
 		}
 		
 		#job-title {
-			font-size: 2.5rem;
-			line-height: 3rem;
+			font-size: 2rem;
+			line-height: 2.5rem;
 		}	
 		
 		#ampersand {
-			font-size:2.5rem;
-			/*margin-left: 2rem;*/
+			font-size:2rem;
 		}
 		
 		#body-text {
