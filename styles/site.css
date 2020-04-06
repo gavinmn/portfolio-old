@@ -52,6 +52,10 @@ a {
 .bold-text {
 	font-weight: 600;
 }
+.super-bold-text {
+	font-weight: 800;
+}
+
 
 .right-text {
 	float: right;
@@ -128,12 +132,11 @@ a {
 	
 	.nav-link {
 		font-size: .75rem;
-		font-weight: 500;
 		margin-left: 1.25rem;
 	}
 	
 	.name-container {
-		padding-top: 4rem;
+		padding-top: 8rem;
 	}
 
 	#logo {
@@ -167,7 +170,7 @@ a {
 	/* BIO ================================= */
 	
 	.bio-container {
-		padding-top: 3rem;
+		padding-top: 2rem;
 	}
 	
 	.description-text {
@@ -228,7 +231,7 @@ a {
 	/* MISC STYLES ================================= */
 	
 	.case-studies-container {
- 		padding-top: 4rem;
+ 		padding-top: 6rem;
  	}
 
 	.illustration-space {
