@@ -64,17 +64,13 @@ a {
 }
 
 .blue-text {
-	color: #49A2FF;
+	color: #077aff;
 }
 
 .bold-text {
 	font-family: 'national 2 bold';
 	font-weight: 800;
 }
-.super-bold-text {
-	font-weight: 800;
-}
-
 
 .right-text {
 	float: right;
@@ -97,10 +93,6 @@ a {
 	color: #949CAD;
 	text-align: left;
 	margin-top: .5rem;
-}
-
-.line-break {
-
 }
 
 /* MISC STYLES ================================== */
@@ -477,7 +469,17 @@ a {
 	}
 
 	.prototype-link {
-		text-decoration: underline;
+		color:#8B8F9B;
+		padding-bottom: 1px;
+		border-bottom: 1px solid;
+		border-color: #8B8F9B; 
+	}
+
+	.prototype-link:hover {
+		color:#077aff;
+		padding-bottom: 1px;
+		border-bottom: 1px solid;
+		border-color: #077aff; 
 	}
 
 	#chalkflow-container {
