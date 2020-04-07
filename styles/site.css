@@ -1,6 +1,25 @@
+
+@font-face {
+    font-family: 'national 2';
+    src: url('national-2-web-regular.woff') format('woff'),
+    url('national-2-web-regular.woff2') format('woff2'),
+    ;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'national 2 bold';
+    src: url('national-2-web-bold.woff') format('woff'), url('national-2-web-bold.woff2') format('woff2');
+
+    font-weight: bold;
+    font-style: normal;
+}
+
 body {
 	background-color: #ffffff;
-	font-family: 'adelle-sans', -apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif;
+	font-family: 'national 2', -apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif;
 	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
 }
@@ -50,7 +69,7 @@ a {
 }
 
 .bold-text {
-
+	font-family: 'national 2 bold';
 	font-weight: 800;
 }
 .super-bold-text {
