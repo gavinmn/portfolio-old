@@ -1,6 +1,6 @@
 body {
 	background-color: #ffffff;
-	font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif;
+	font-family: 'adelle-sans', -apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif;
 	overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
 }
@@ -38,7 +38,7 @@ a {
 /* TEXT STYLES ============================== */
 
 .light-grey-text {
-	color: #5C6371;
+	color: #8B8F9B;
 }
 
 .dark-grey-text {
@@ -50,7 +50,8 @@ a {
 }
 
 .bold-text {
-	font-weight: 600;
+
+	font-weight: 800;
 }
 .super-bold-text {
 	font-weight: 800;
@@ -98,22 +99,28 @@ a {
 }
 
 .selected-link {
-	color: #49A2FF;
+	color: #8B8F9B;
+	padding-bottom: 1px;
+	border-bottom: 1px solid;
+	border-color: #8B8F9B; 
 }
 
 .selected-link:hover {
 	cursor: pointer;
-	color: #49A2FF;
+	color: #1d1d1f;
 }
 
 .unselected-link {
-	/*padding: 4px 6px;*/
+	color: #8B8F9B;
+	padding-bottom: 1px;
+	border-bottom: 1px solid;
+	border-color: #DCDEE1;
 }
 
 
 .unselected-link:hover {
 	cursor: pointer;
-	color: #49A2FF;	
+	color: #1d1d1f;	
 }
 
 /* ABOUT PAGE =================================================================== */
@@ -151,7 +158,7 @@ a {
 
 	#name:hover {
 		cursor: pointer;
-		color: #49A2FF;
+		color: #007AFF;
 	}
 	
 	.title-container {
@@ -188,6 +195,9 @@ a {
 	
 	.personal-link {
 		font-size: .75rem;
+		padding-bottom: 1px;
+		border-bottom: 1px solid;
+		border-color: #DCDEE1; 
 	}
 	
 	.personal-link:hover {
@@ -196,14 +206,17 @@ a {
 
 	.dribbble:hover {
 		color:#ea4c89;
+		border-color: #ea4c89;
 	}
 
 	.email:hover {
-		color: #49A2FF;
+		color: #007AFF;
+		border-color: #007AFF;
 	}
 
 	.linkedin:hover {
 		color:#0A66C2;
+		border-color: #0A66C2;
 	}
 	
 	/* FOOTER ==================  */
@@ -242,6 +255,10 @@ a {
 		font-size: 1.5rem;
 		display: inline-block;
 	}
+
+	.subheader {
+		font-size: .8rem;
+	}
 	
 	.grid-container-ui-icons {
 		display: grid;
@@ -279,7 +296,9 @@ a {
 	
 	.ux-header {
 		margin-bottom: .5rem;
+		line-height: 1.15rem;
 		font-size:1.15rem;
+		display: block;
 	}
 	
 	.chalk-project {
@@ -423,7 +442,7 @@ a {
 	
 	.case-study-h1 {
 		font-size: 1.2rem;
-		margin-bottom: .5em;
+		line-height: 1rem;
 	}
 
 	.case-study-h2 {	
