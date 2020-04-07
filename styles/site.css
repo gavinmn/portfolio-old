@@ -157,10 +157,11 @@ a {
 	}
 
 	#logo {
-		width: 64px;
+		width: 108px;
 	}
 	
 	#name {
+		color: #8B8F9B;
 		font-size: .85rem;
 		font-weight: 500;
 		margin-right:auto;
@@ -168,7 +169,7 @@ a {
 
 	#name:hover {
 		cursor: pointer;
-		color: #007AFF;
+		color: #1d1d1f;
 	}
 	
 	.title-container {
@@ -630,7 +631,7 @@ a {
 		}
 
 		#logo {
-			width: 80px;
+			width: 128px;
 		}
 		
 		#name {
