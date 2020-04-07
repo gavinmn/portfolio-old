@@ -267,8 +267,16 @@ a {
 		display: inline-block;
 	}
 
+	.portfolio-title-header {
+		line-height: 1.15rem;
+		font-size:1.15rem;
+		display: block;
+	}
+
 	.subheader {
 		font-size: .8rem;
+		font-weight:normal;
+		margin-bottom:.5rem;
 	}
 	
 	.grid-container-ui-icons {
@@ -453,7 +461,7 @@ a {
 	
 	.case-study-h1 {
 		font-size: 1.2rem;
-		line-height: 1rem;
+
 	}
 
 	.case-study-h2 {	
