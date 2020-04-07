@@ -194,7 +194,7 @@ a {
 	.description-text {
 		font-size: 1rem;
 		line-height: 1.5rem;
-		max-width: 580px;
+		max-width: 610px;
 	}
 	
 	.flex-container-contact-links {
@@ -274,7 +274,7 @@ a {
 	}
 
 	.subheader {
-		font-size: .8rem;
+		font-size: 1rem;
 		font-weight:normal;
 		margin-bottom:.5rem;
 	}
@@ -428,7 +428,7 @@ a {
 
 	.body-text {
 		font-size: 16px;
-		line-height: 24px;
+		line-height: 22px;
 		max-width: 560px;
 	}
 	
@@ -631,7 +631,7 @@ a {
 	
 	@media only screen and (min-width: 722px) {
 		html {
-			font-size: 20px;
+			font-size: 24px;
 		}
 		
 		.nav-link {
@@ -655,31 +655,20 @@ a {
 			font-size:2rem;
 		}
 		
-		#body-text {
+		.body-text {
 			max-width: 610px;
+			font-size: 18px;
+			line-height: 24px;
 		}
 
 		.description-text {
 			font-size: .875rem;
 		}
-		
-		.more-dropdown-container-illustration {
-			padding: 0;
-		}
-		
-		.more-dropdown-container-ui {
-			padding: 0;
-		}
-		
-		.dropdown-arrow {
-			width: 16px;
-			padding-left: .25rem;
-			padding-bottom: 2px;
-		}
-		
-		.more-dropdown {
-			font-size: .75rem;
-			display: inline-block;
+
+		.subheader {
+			font-size: .875rem;
+			font-weight:normal;
+			margin-bottom:.5rem;
 		}
 
 		.case-study-h2 {	
