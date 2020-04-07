@@ -1,9 +1,8 @@
 
 @font-face {
     font-family: 'national 2';
-    src: url('national-2-web-regular.woff') format('woff'),
-    url('national-2-web-regular.woff2') format('woff2'),
-    ;
+    src: url('national-2-web-regular.woff') format('woff'), url('national-2-web-regular.woff2') format('woff2');
+
     font-weight: normal;
     font-style: normal;
 }
