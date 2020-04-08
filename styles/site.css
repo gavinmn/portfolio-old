@@ -466,9 +466,11 @@ a {
 
 	.case-study-h2 {	
 		text-align: left;
-		font-size: 1.2rem;
 		margin-top: 1rem;
-		margin-bottom:.5rem;
+		margin-bottom: .25rem;
+		font-family: 'national 2 bold', -apple-system, BlinkMacSystemFont, Helvetica Neue, sans-serif;
+		font-weight:bold;
+		color:#1d1d1f;
 	}
 	
 	.case-study-body {
@@ -672,7 +674,7 @@ a {
 		}
 
 		.case-study-h2 {	
-			font-size: .9rem;
+			font-size: 18px;
 		}
 		
 			
