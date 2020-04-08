@@ -77,11 +77,15 @@ a {
 }
 
 .dribbble-link {
-	color:#ea4c89;
+	color:#8B8F9B;
+	padding-bottom: 1px;
+	border-bottom: 1px solid;
+	border-color: #DCDEE1;
 }
 
 .dribbble-link:hover {
-	color:#49A2FF;
+	color:#ea4c89;
+	border-color: #ea4c89;
 }
 
 .dribbble:hover {
@@ -173,7 +177,7 @@ a {
 	}
 	
 	.title-container {
-		padding-top: .8rem;
+
 	}
 	
 	#job-title {
